@@ -683,3 +683,7 @@ body:not(.user-is-tabbing) a:focus {
   width: auto !important;
   max-width: 200px !important;
 }
+
+.work__screenshots {
+  margin-top: 2rem;
+}
