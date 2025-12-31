@@ -597,3 +597,63 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+/* -------- WORK FIX -------- */
+
+.work__box {
+  display: flex;
+  gap: 6rem;
+  align-items: flex-start;
+}
+
+.work__box:not(:last-child) {
+  margin-bottom: 16rem;
+}
+
+.work__text {
+  flex: 0 0 35%;
+}
+
+.work__media {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.work__image-box img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 8px;
+}
+
+.work__screenshots {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.work__screenshots img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 6px;
+}
+
+/* -------- RESPONSIVE -------- */
+
+@media (max-width: 900px) {
+  .work__box {
+    flex-direction: column;
+  }
+
+  .work__text {
+    flex: 1;
+  }
+
+  .work__screenshots {
+    justify-content: center;
+  }
+
+  .work__image-box img,
+  .work__screenshots img {
+    max-width: 100%;
+  }
+}
