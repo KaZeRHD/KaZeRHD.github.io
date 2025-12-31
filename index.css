@@ -503,7 +503,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 200px) {
+@media(min-width: 450px) {
     .work__screenshot-box {
         flex: 1;
         margin: 0 0 0 4rem;
