@@ -667,3 +667,19 @@ body:not(.user-is-tabbing) a:focus {
   max-width: 200px;
   height: auto;
 }
+/* ==== FIX DEFINITIVO SCREENSHOTS ==== */
+
+.work__screenshot-box {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.work__screenshot-box img {
+  max-width: 200px !important;
+  width: auto !important;
+  flex-shrink: 0;
+}
+.work__screenshot-box .work__image {
+  width: auto !important;
+  max-width: 200px !important;
+}
