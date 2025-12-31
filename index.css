@@ -499,6 +499,17 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.work__screenshot-box {
+    margin-bottom: var(--gutter-normal);
+}
+
+@media(min-width: 450px) {
+    .work__screenshot-box {
+        flex: 1;
+        margin: 0 0 0 5rem;
+    }
+}
+
 @media(max-width: 900px) {
     .work__code {
         height: 4rem;
